@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Neucha&family=Open+Sans&display=swap");
+
+// === Mixin ===
+@mixin opensans {
+  font-family: "Open Sans", sans-serif;
+}
+
+@mixin neucha {
+  font-family: "Neucha", sans-serif;
+}
+// === / Mixin ===
+
+// === Variables ===
+$white: #fff;
+$translucent-white: #d7ccc0;
+$light: #f5f4f0;
+$primary: #fe8a02;
+$primary-dark: #42413c;
+$dark: #2a2626;
+$translucent-dark: #908d8b;
+$brown: #b09a81;
+$blue: #1085c5;
+
+$fw-regular: 400;
+$fw-medium: 500;
+$fw-bold: 700;
+$fs-primary: 16px;
+$hl-primary: 1.6em;
+$font-col: #2a2626;
+
+$padding-vertical: 100px;
+
+// === / Variables ===
+
+// === Common ===
+body {
+  @include opensans;
+}
+
+.section-outer {
+}
+
+.section-inner {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding-top: $padding-vertical;
+  padding-bottom: $padding-vertical;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+  line-height: 1.2em;
+  font-weight: $fw-regular;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 34px;
+}
+// === / Common ===
+
+// === Header ===
+.section-header {
+}
+// === / Header ===
+
+// === Video ===
+.section-video {
+}
+// === / Video ===
+
+// === Navigation ===
+.section-navigation {
+}
+// === / Navigation ===
+
+// === Ikea Effect ===
+.section-ikea-effect {
+}
+// === / Ikea Effect ===
+
+// === Premature Optimization ===
+.section-premature-ptimization {
+}
+// === / Premature Optimization ===
+
+// === Distortion of Novelty ===
+.section-distortion-of-novelty {
+}
+// === / Distortion of Novelty ===
+
+// === Hyperbolic Depreciation ===
+.section-hyperbolic-depreciation {
+}
+// === / Hyperbolic Depreciation ===
+
+// === Errors in Planning ===
+.section-errors-in-planning {
+}
+// === / Errors in Planning ===
+
+// === Footer ===
+.section-footer {
+}
+// === / Footer ===
